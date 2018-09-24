@@ -16,9 +16,9 @@ matrix:
         # #   env: PYTHON=2.7
         - os: linux
           python: 3.6
-        # - os: osx
-        #   language: generic
-        #   env: PYTHON=3.6
+        - os: osx
+          language: generic
+          env: PYTHON=3.6
 
 # Command to install dependencies for each configuration.
 before_install:
